@@ -4,34 +4,55 @@
 }
 
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    padding: 0;
+}
+html, body, div, img {
     margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 body {
-    max-height: 800px;
-    background:black;
+    min-height: 830px;
+    max-height: 1472px;
 }
-
 li {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
+a {
+    color:#0088CC;
+    font-family: 'Lucida sans';
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Navbar of productos */
+.wrapper-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .wrapper1 {
-    background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) no-repeat 50% 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: calc(var(--height) - var(--diference));
-    max-height: 2000px;
+    width: 100vw;
+    max-width: 100vw;
+    background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) no-repeat 50% 100%;
+    flex:1 1 660px;
 }
 
 .products {
@@ -42,14 +63,14 @@ li {
 }
 
 .products ul {
+    padding: 0;
+    margin:0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .product {
     flex: 1;
-    width: ;
     height: 36px;
     background: url(/images/globalnav_text.svg) no-repeat center;
     border-right: 1px solid rgb(107, 107, 107);
@@ -120,19 +141,27 @@ li {
 /* Titles */
 
 .titles {
-    margin-top: 100px;
-    width: 100%;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .title {
     clip-path: inset(0 0 27px 0);
+    margin:0;
+}
+
+.subheadline {
+    margin: 0;
+    border: 5px solid goldenrod;
+}
+.titles img {
+    width: 100%;
 }
 
 .cta1 {
-    margin-top: 10px;
     width: 100%;
     height: 30px;
     background: url(/images/cta_your_verse_27pt.png) no-repeat center -2px;
@@ -145,13 +174,52 @@ li {
 /* Promos */
 
 
-/* .promos {
-    width: 100%;
+.promos {
     display: flex;
-    background-color:red;
 }
 
 .promos img {
-    flex:1;
-    width: 50%;
-} */
+    border: 0.5px solid white;
+    width: 100%;
+}
+
+/* Footer */
+
+.wrapper-footer {
+    border: 1px solid rosybrown;
+    width: 80vw;
+    max-width:1000px;
+    color: #6e6e6e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline; 
+}
+
+.wrapper-footer .contact {
+    border: 1px solid rosybrown;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact li {
+
+    padding: 2px;
+
+}
+
+.wrapper-footer .shop {
+    margin-bottom: 10px;
+}
+.wrapper-footer p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-footer a {
+    font-size: 10px;
+}
+
