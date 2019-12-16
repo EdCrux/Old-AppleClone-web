@@ -1,0 +1,31 @@
+:root{
+    --height: 100vh;
+    --diference: 20vh;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-height: 800px;
+    background:black;
+}
+
+/* Navbar of productos */
+
+.products {
+    background: linear-gradient(rgb(143, 142, 142) 50%, rgb(80, 79, 79) 50%);
+    width: 980px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.wrapper1 {
+    background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) no-repeat center bottom;
+    width: 100%;
+    height: calc(var(--height) - var(--diference));
+}
