@@ -15,8 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/EdCrux/Old-AppleClone-web/6db098f55756009c034ebdd5755af47dfce7fd3d/index.html)
-
+[Live Demo Link](https://raw.githack.com/EdCrux/Old-AppleClone-web/homepage/index.html)
 
 ## Getting Started
 
