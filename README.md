@@ -5,6 +5,7 @@
 
 ---
 
+![alt text](https://github.com/EdCrux/Old-AppleClone-web/blob/homepage/images/finalresult.png) 
 
 
 ## Built With
