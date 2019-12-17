@@ -5,6 +5,8 @@
 
 ---
 
+![alt text](https://github.com/EdCrux/Old-AppleClone-web/blob/homepage/images/finalresult.png) 
+
 
 ## Built With
 
@@ -14,8 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://rawcdn.githack.com/EdCrux/Old-AppleClone-web/797cfe3c3472b3d55fa89e67783b07303a45b988/index.html)
 
 ## Getting Started
 
