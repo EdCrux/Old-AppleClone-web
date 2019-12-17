@@ -181,6 +181,10 @@ a:hover {
   height: 200px;
 }
 
+.promos:hover {
+  cursor: pointer;
+}
+
 .promo1 {
   background: url(images/promo_iphone5s.jpg) center;
 }
