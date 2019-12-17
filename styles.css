@@ -49,7 +49,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height:750px;
+  height: 750px;
   max-height: 600px;
   background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) no-repeat 50% 100%;
 }
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .product {
-  flex:1;
+  flex: 1;
   height: 36px;
   background: url(images/globalnav_text.svg) no-repeat center;
   border-right: 1px solid rgb(107, 107, 107);
@@ -94,14 +94,11 @@ a:hover {
   transition: 0.2s;
 }
 
-
 .searcher {
   border: 0;
   width: 100px;
   background: transparent;
-
 }
-
 
 .search:hover {
   width: 220px;
@@ -213,19 +210,19 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
-  width:80vw;
+  width: 80vw;
   max-width: 1000px;
   margin-top: 20px;
   color: #6e6e6e;
 }
 
 .wrapper-footer .contact {
-  flex:1;
+  flex: 1;
   margin: 0 0 0 10px;
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
 .contact li {
